@@ -24,25 +24,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "van2.ragnarok-it.xyz",
-      "server_port": 8446,
-      "uuid": "a61496c3-f256-4a36-8a52-8638b9cc900a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Y6ZtoxCUW1qFIvLTNfbrsyfCDoIBaRsqGNtbF_mcAXM",
-          "short_id": "7bac4b112d30d1"
-        }
-      }
+      "server": "45.149.114.171",
+      "server_port": 777,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
     },
     {
       "type": "vless",
@@ -66,14 +53,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇫🇮 芬兰 (Finland) 05 - xiaohe",
-      "server": "45.149.114.171",
-      "server_port": 777,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -81,8 +60,7 @@
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
       ]
     },
     {
@@ -92,8 +70,7 @@
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
         "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 05 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
